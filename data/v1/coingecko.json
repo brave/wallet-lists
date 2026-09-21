@@ -6020,13 +6020,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102172417/large/ionqon_160x160.png?1773394394"
     },
-    "0x2f32b39023da7d6a6486a85d12b346eb9c2a0d19": {
-      "name": "Ferro",
-      "symbol": "FER",
-      "coingeckoId": "ferro",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/26111/large/FER_Token.png?1696525201"
-    },
     "0x2f42b7d686ca3effc69778b6ed8493a7787b4d6e": {
       "name": "Taraxa",
       "symbol": "TARA",
@@ -16457,6 +16450,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/71427/large/hdon_160x160.png?1767882478"
     },
+    "0x7dc9748da8e762e569f9269f48f69a1a9f8ea761": {
+      "name": "ZeUSD",
+      "symbol": "ZeUSD",
+      "coingeckoId": "zeusd",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/54829/large/zoth_32.webp?1741933336"
+    },
     "0x7dd7c6ca4898d34bad15f3b8eb0f990809ec1b81": {
       "name": "VanEck Rare Earth and Strategic Metals ETF (Dinari Tokenized ETF)",
       "symbol": "REMX",
@@ -23681,13 +23681,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/55327/large/districts_%282%29.jpg?1745430528"
     },
-    "0xb8647e90c0645152fccf4d9abb6b59eb4aa99052": {
-      "name": "KeyFi",
-      "symbol": "KEYFI",
-      "coingeckoId": "keyfi",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/15098/large/keyfi_logo.jpg?1696514756"
-    },
     "0xb87b96868644d99cc70a8565ba7311482edebf6e": {
       "name": "OnChain Pepe 404",
       "symbol": "OCP404",
@@ -25031,6 +25024,13 @@
       "coingeckoId": "waves-ducks",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/17298/large/200x200_pixel.png?1696516851"
+    },
+    "0xc273986a91e4bfc543610a5cb5860b7cfefb6cc0": {
+      "name": "Spiko Amundi Overnight Swap Fund (GBP)",
+      "symbol": "gbpSAFO",
+      "coingeckoId": "spiko-amundi-overnight-swap-fund-gbp",
+      "decimals": 5,
+      "logo": "https://coin-images.coingecko.com/coins/images/102172592/large/Fund_gbpSAFO.png?1774104818"
     },
     "0xc278041fdd8249fe4c1aad1193876857eea3d68c": {
       "name": "IdleTUSD (Best Yield)",
@@ -34656,13 +34656,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102173593/large/250x250_GULD_icon.png?1780327048"
     },
-    "0x14daf26c2507acdd3b64e3302d8554611026cc40": {
-      "name": "Cool Mustache",
-      "symbol": "MUST",
-      "coingeckoId": "cool-mustache",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/53833/large/Must.png?1737558596"
-    },
     "0x14e18043a68530acb5306f603109f7dc91b09b07": {
       "name": "I Emmet",
       "symbol": "Emmet",
@@ -36489,6 +36482,13 @@
       "coingeckoId": "petco-health-and-wellness-company-inc-astock",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102178333/large/awoof.png?1789373638"
+    },
+    "0x2f6c0e5e06b43512706a9cdf66cd21f723fe0ec3": {
+      "name": "Spiko Amundi Overnight Swap Fund (GBP)",
+      "symbol": "gbpSAFO",
+      "coingeckoId": "spiko-amundi-overnight-swap-fund-gbp",
+      "decimals": 5,
+      "logo": "https://coin-images.coingecko.com/coins/images/102172592/large/Fund_gbpSAFO.png?1774104818"
     },
     "0x2f6c17fa9f9bc3600346ab4e48c0701e1d5962ae": {
       "name": "Based Fartcoin",
@@ -45807,6 +45807,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/53975/large/Screenshot_2024-11-30_at_08.28.16.png?1737807564"
     },
+    "0xb7c10146ba1b618956a38605ab6496523d450871": {
+      "name": "ESHARE",
+      "symbol": "ESHARE",
+      "coingeckoId": "eshare",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/102178548/large/eshare-logo-dexscreener-original.png?1789934095"
+    },
     "0xb8147ce9b0dac5f8165785dec6494e57748e4b78": {
       "name": "DCAI",
       "symbol": "DCAI",
@@ -49747,13 +49754,6 @@
       "coingeckoId": "doppel",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102171916/large/doppel.jpg?1770398502"
-    },
-    "0xf3081494b87e8d5fb7960f066e931d1d0e6e3d67": {
-      "name": "Bittensor",
-      "symbol": "TAO",
-      "coingeckoId": "bittensor",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/28452/large/ARUsPeNQ_400x400.jpeg?1696527447"
     },
     "0xf30bf00edd0c22db54c9274b90d2a4c21fc09b07": {
       "name": "FELIX",
@@ -53767,6 +53767,13 @@
       "coingeckoId": "xiaomayi",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102172880/large/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260413161649_13_838.jpg?1776401600"
+    },
+    "0x2036a6ea0371dc8e88b5dfd5c2adc373e76c4444": {
+      "name": "赵长娥",
+      "symbol": "赵长娥",
+      "coingeckoId": "-11",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/69803/large/cz.jpg?1759727994"
     },
     "0x20482b0b4d9d8f60d3ab432b92f4c4b901a0d10c": {
       "name": "Rekt",
@@ -57827,13 +57834,6 @@
       "coingeckoId": "poken",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/21574/large/G10VNBAR_400x400.jpg?1696520934"
-    },
-    "0x4b6000f9163de2e3f0a01ec37e06e1469dbbce9d": {
-      "name": "KeyFi",
-      "symbol": "KEYFI",
-      "coingeckoId": "keyfi",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/15098/large/keyfi_logo.jpg?1696514756"
     },
     "0x4b7c04ff792581f93f80d69c0f357cb890444444": {
       "name": "火箭狗 (Rocket Dog)",
@@ -78536,6 +78536,13 @@
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/51686/large/VAULT_LOGO_%28200%29.png?1731787546"
     },
+    "3YNCESdqhSgvsD4aARHC4rdqXpjyW9CWjosH82hNpump": {
+      "name": "Dinky",
+      "symbol": "DINKY",
+      "coingeckoId": "dinky",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/102178546/large/dinky-logo-200x200.png?1789903468"
+    },
     "3Ydb2n8vAFdBJYpdiZEoDxRXLmiGDY1fuizVmMPMpump": {
       "name": "Opanarchy",
       "symbol": "OPAN",
@@ -81440,13 +81447,6 @@
       "coingeckoId": "germany-coin",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/37621/large/germ_flag.png?1715107895"
-    },
-    "52nVoVk3BimAtvu2y9q1gnxqgR8pmjcc3v3byGnCuBa": {
-      "name": "Scuba",
-      "symbol": "SCUBA",
-      "coingeckoId": "scuba",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/102173722/large/holderscan-scuba-icon.png?1781113972"
     },
     "5314GTpDziP2ZdaANnt5KJEABGXy5Nn5Kyc3SFPYpump": {
       "name": "Touch Grass",
@@ -94524,6 +94524,13 @@
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/67176/large/i36mzwfcs0pcpjhtx4pfldskckwg.?1751989313"
     },
+    "AyYNfPtftg2zDP4ZbgcoQMggQtwLh4zpfVVmUJs2thto": {
+      "name": "Leopardus tilcayo",
+      "symbol": "TILCAYO",
+      "coingeckoId": "leopardus-tilcayo-2",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/102178554/large/TF1GZZx-_400x400.jpg?1789937740"
+    },
     "AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump": {
       "name": "JOBCOIN",
       "symbol": "JOBCOIN",
@@ -97155,6 +97162,13 @@
       "coingeckoId": "ballerina-cappuccina-3",
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/102174750/large/mut6m1yptz8269e9cn4zh9tdvumg.?1784782984"
+    },
+    "C2WtD354XEvS9gzpJDLqzqkADq7wUtmJg1UzUdmL5a21": {
+      "name": "McCat",
+      "symbol": "MCCAT",
+      "coingeckoId": "mccat",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/102178547/large/image_%2849%29.jpg?1789933658"
     },
     "C2i8WUjvkpZPXEBumF6dwFJakaDA3hTYCcBpfLMgpump": {
       "name": "Troll's Brother",
@@ -100110,6 +100124,13 @@
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/18910/large/defilend.png?1696518368"
     },
+    "DFQHUegJWE29Xu3BUxPezqi77uyHURRyxJpdtyvLpump": {
+      "name": "PUMP CAT",
+      "symbol": "PUMPCAT",
+      "coingeckoId": "pump-cat",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/102178542/large/klmvoeaonw5ck3m00i947e73grae.?1789888512"
+    },
     "DFVeSFxNohR5CVuReaXSz6rGuJ62LsKhxFpWsDbbjups": {
       "name": "Vibe Cat",
       "symbol": "VIBE",
@@ -102202,6 +102223,13 @@
       "coingeckoId": "moonvember",
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/69880/large/4dIVMrBa_400x400.jpg?1759930738"
+    },
+    "EBsK6LyH8ZCF6aq2uD4fTkFHuPzA1DLUE7fLjMyJpump": {
+      "name": "The Annoyed Cat",
+      "symbol": "ANNOYED",
+      "coingeckoId": "the-annoyed-cat",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/102178539/large/a5lirudsr5h35r77c0o474zwynvy.?1789888214"
     },
     "EC1TMMg4shn1XrYNy5Y5a98LT6kjNcFtgnav11jSpump": {
       "name": "ROBO",
@@ -109462,13 +109490,6 @@
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/70382/large/57gzg4ks5pmyciizhaui4kuavo4p.?1761758854"
     },
-    "HJBoRECiJddTZQZpuY8pHenf5CZ2yjju4npekmvbpump": {
-      "name": "Zooko's Dog",
-      "symbol": "JACKJACK",
-      "coingeckoId": "zooko-s-dog",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/70637/large/jackjack.png?1762923849"
-    },
     "HJDTyM8uTpdVfW4KSjXJnFXKDVg7czRxDm3d7PJD9PTd": {
       "name": "Clube Atlético Mineiro Fan Token",
       "symbol": "GALO",
@@ -116014,6 +116035,13 @@
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/70694/large/forgeai-icon-colored.png?1763143432"
     },
+    "fvHLJUwsynVHJrssbZ8MLNyku9jt2izUspbBD4Spump": {
+      "name": "Reflex Monster",
+      "symbol": "FLEX",
+      "coingeckoId": "reflex-monster",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/102178540/large/jtzwtydez0xdqvsso7gi6m8npwm7.?1789888333"
+    },
     "fznj92AnTcQ6mAFvt68JgLJS5pHag5uPmJ7LmSLondo": {
       "name": "iShares High Yield Active ETF (Ondo Tokenized)",
       "symbol": "BRHYON",
@@ -120524,6 +120552,13 @@
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/10119/large/JBs9jiXO_400x400.jpg?1696510144"
     },
+    "0x4fe515c67eeeadb3282780325f09bb7c244fe774": {
+      "name": "Spiko Amundi Overnight Swap Fund (GBP)",
+      "symbol": "gbpSAFO",
+      "coingeckoId": "spiko-amundi-overnight-swap-fund-gbp",
+      "decimals": 5,
+      "logo": "https://coin-images.coingecko.com/coins/images/102172592/large/Fund_gbpSAFO.png?1774104818"
+    },
     "0x50b728d8d964fd00c2d0aad81718b71311fef68a": {
       "name": "Synthetix",
       "symbol": "SNX",
@@ -120859,13 +120894,6 @@
       "coingeckoId": "neuy",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/25870/large/logo200x200.png?1696524953"
-    },
-    "0x62f594339830b90ae4c084ae7d223ffafd9658a7": {
-      "name": "Sphere Finance",
-      "symbol": "SPHERE",
-      "coingeckoId": "sphere-finance",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/24424/large/2iR2JsL.png?1696523606"
     },
     "0x63334cf286580f5075900c34988858658685e76f": {
       "name": "HAVA",
@@ -122973,13 +123001,6 @@
       "coingeckoId": "shuts-wave",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/28830/large/swave_logo.png?1696527806"
-    },
-    "0xd1a5f2a049343fc4d5f8d478f734eba51b22375e": {
-      "name": "KeyFi",
-      "symbol": "KEYFI",
-      "coingeckoId": "keyfi",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/15098/large/keyfi_logo.jpg?1696514756"
     },
     "0xd1f9c58e33933a993a3891f8acfe05a68e1afc05": {
       "name": "Sunflower Land",
@@ -132932,6 +132953,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102175668/large/AMD.png?1787292209"
     },
+    "0xbe023308ac2ef7e1c3799f4e6a3003ee6d342635": {
+      "name": "Spiko Amundi Overnight Swap Fund (GBP)",
+      "symbol": "gbpSAFO",
+      "coingeckoId": "spiko-amundi-overnight-swap-fund-gbp",
+      "decimals": 5,
+      "logo": "https://coin-images.coingecko.com/coins/images/102172592/large/Fund_gbpSAFO.png?1774104818"
+    },
     "0xbe10e0c583e46ff8d9a5a6ab578a89b7e49ad005": {
       "name": "FormFactor aStock",
       "symbol": "aFORM",
@@ -134142,13 +134170,6 @@
       "coingeckoId": "moderna-rstock",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102177348/large/MRNA.png?1789117622"
-    },
-    "0xdef683cfb6febc3b8ebc49d17cd1c93d0b1416b8": {
-      "name": "Ford Motor rStock",
-      "symbol": "rF",
-      "coingeckoId": "ford-motor-rstock",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102177252/large/75d206815a6f12bdbfb91700c0ef73cf.png?1789117307"
     },
     "0xdefa1d21c5f1cbeac00eeb54b44c7d86467cc3a3": {
       "name": "Almanak",
@@ -135874,6 +135895,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102175048/large/dinari-logo-green-with-margin.png?1785403020"
     },
+    "0x24de8771bc5ddb3362db529fc3358f2df3a0e346": {
+      "name": "Avant USD",
+      "symbol": "avUSD",
+      "coingeckoId": "avant-usd",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/53527/large/token-avusd.png?1736579003"
+    },
     "0x2577f5d2253b6ae3eb5cac7b6b5a39964b5f209c": {
       "name": "GPGI (Dinari Tokenized Stock)",
       "symbol": "GPGI",
@@ -137434,6 +137462,13 @@
       "coingeckoId": "snowbank",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/19947/large/sb.png?1696519364"
+    },
+    "0x7dc9748da8e762e569f9269f48f69a1a9f8ea761": {
+      "name": "ZeUSD",
+      "symbol": "ZeUSD",
+      "coingeckoId": "zeusd",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/54829/large/zoth_32.webp?1741933336"
     },
     "0x7dd7c6ca4898d34bad15f3b8eb0f990809ec1b81": {
       "name": "VanEck Rare Earth and Strategic Metals ETF (Dinari Tokenized ETF)",
