@@ -2785,6 +2785,26 @@
       "off_ramp_providers": []
     },
     {
+      "contract_address": "0x0A092E544DA31150b439a1aAA1A3a2214a867F46 ",
+      "name": "Concrete",
+      "logo": "",
+      "is_erc20": true,
+      "is_erc721": false,
+      "is_erc1155": false,
+      "is_nft": false,
+      "symbol": "CT",
+      "decimals": 18,
+      "visible": true,
+      "token_id": "",
+      "coingecko_id": "",
+      "chain_id": "0x1",
+      "coin": 60,
+      "on_ramp_providers": [
+        "coinbase"
+      ],
+      "off_ramp_providers": []
+    },
+    {
       "contract_address": "0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d",
       "name": "Cartesi",
       "logo": "",
