@@ -5725,6 +5725,46 @@
       "off_ramp_providers": []
     },
     {
+      "contract_address": "0x9f6F3991D525015a6F8CaF062C83b62fD3AC4436",
+      "name": "Openusd",
+      "logo": "",
+      "is_erc20": true,
+      "is_erc721": false,
+      "is_erc1155": false,
+      "is_nft": false,
+      "symbol": "OUSD",
+      "decimals": 18,
+      "visible": true,
+      "token_id": "",
+      "coingecko_id": "",
+      "chain_id": "0x1",
+      "coin": 60,
+      "on_ramp_providers": [
+        "coinbase"
+      ],
+      "off_ramp_providers": []
+    },
+    {
+      "contract_address": "ousd2mJsPEckLHcSCDxyKD7NDGARZcfLbDZkKiatYHB",
+      "name": "Openusd",
+      "logo": "",
+      "is_erc20": true,
+      "is_erc721": false,
+      "is_erc1155": false,
+      "is_nft": false,
+      "symbol": "OUSD",
+      "decimals": 18,
+      "visible": true,
+      "token_id": "",
+      "coingecko_id": "",
+      "chain_id": "0x65",
+      "coin": 501,
+      "on_ramp_providers": [
+        "coinbase"
+      ],
+      "off_ramp_providers": []
+    },
+    {
       "contract_address": "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb",
       "name": "Orchid",
       "logo": "",
