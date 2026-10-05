@@ -35,6 +35,12 @@ const stageManifest = (stagingDir: string): void => {
   fs.copyFileSync(manifestPath, outputManifestPath);
 };
 
+// Records which wallet-lists release a packaged component was built from.
+const stageVersion = (stagingDir: string): void => {
+  const { version } = JSON.parse(fs.readFileSync('./package.json', 'utf-8'));
+  fs.writeFileSync(path.join(stagingDir, 'VERSION'), `v${version}\n`);
+};
+
 const stageCoingeckoIds = async (stagingDir: string): Promise<void> => {
   const dstPath = path.join(stagingDir, 'coingecko-ids.json');
   const coingeckoIds = await generateCoingeckoIds();
@@ -95,6 +101,7 @@ const stageTokenPackage = async (): Promise<void> => {
 
   stagePackageJson(stagingDir);
   stageManifest(stagingDir);
+  stageVersion(stagingDir);
 };
 
 installErrorHandlers();

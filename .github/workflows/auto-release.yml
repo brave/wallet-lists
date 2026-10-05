@@ -54,6 +54,12 @@ jobs:
           git commit -m "ci: update build assets (${{ steps.bump-version.outputs.version }})"
           git push
 
+      # The wallet data component, consumed by brave-core-crx-packager. Same
+      # contents as the npm package minus package.json, which only npm needs.
+      - name: Package release asset
+        working-directory: build
+        run: zip -qr ../wallet-lists.zip . -x package.json
+
       - name: Publish NPM package
         run: npm run publish-token-package
         env:
@@ -65,3 +71,5 @@ jobs:
           tag_name: ${{ steps.bump-version.outputs.version }}
           generate_release_notes: true
           make_latest: true
+          files: wallet-lists.zip
+          fail_on_unmatched_files: true
