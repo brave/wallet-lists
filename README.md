@@ -6,7 +6,9 @@ Manages custom wallet lists for Brave Wallet
 
 ## Automated Publishing
 
-We have setup a **weekly** cron job on [Jenkins](https://github.com/brave/devops/blob/master/jenkins/jobs/extensions/brave-core-ext-wallet-data-files-update-publish.yml) that publishes the latest NPM package to wallet data files.
+The [Auto Release](.github/workflows/auto-release.yml) workflow builds the wallet data files daily and publishes them as a GitHub release, with the component contents attached as `wallet-lists.zip` (`VERSION` inside the zip names the release it came from). The same contents are also published to npm as `@brave/wallet-lists` while consumers migrate off it ([#369](https://github.com/brave/wallet-lists/issues/369)).
+
+A **weekly** cron job on [Jenkins](https://github.com/brave/devops/blob/master/jenkins/jobs/extensions/brave-core-ext-wallet-data-files-update-publish.yml) packages the latest NPM package into the wallet data files component.
 
 ## Development
 

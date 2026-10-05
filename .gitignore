@@ -110,3 +110,7 @@ build/manifest.json
 build/package.json
 build/solana-contract-map.json
 build/imagesUncompressed
+build/VERSION
+
+# Release asset built by auto-release.yml
+wallet-lists.zip
