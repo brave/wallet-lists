@@ -6,7 +6,14 @@ Manages custom wallet lists for Brave Wallet
 
 ## Automated Publishing
 
-The [Auto Release](.github/workflows/auto-release.yml) workflow builds the wallet data files daily and publishes them as a GitHub release, with the component contents attached as `wallet-lists.zip` (`VERSION` inside the zip names the release it came from). The same contents are also published to npm as `@brave/wallet-lists` while consumers migrate off it ([#369](https://github.com/brave/wallet-lists/issues/369)).
+The [Auto Release](.github/workflows/auto-release.yml) workflow builds the wallet data files daily and publishes them as a GitHub release, with the component contents attached as `wallet-lists.zip` (`VERSION` inside the zip names the release it came from). Releases are immutable, and each zip has a signed build provenance attestation that consumers should check before using it:
+
+```bash
+gh attestation verify wallet-lists.zip --repo brave/wallet-lists \
+  --signer-workflow brave/wallet-lists/.github/workflows/auto-release.yml
+```
+
+The same contents are also published to npm as `@brave/wallet-lists` while consumers migrate off it ([#369](https://github.com/brave/wallet-lists/issues/369)).
 
 A **weekly** cron job on [Jenkins](https://github.com/brave/devops/blob/master/jenkins/jobs/extensions/brave-core-ext-wallet-data-files-update-publish.yml) packages the latest NPM package into the wallet data files component.
 

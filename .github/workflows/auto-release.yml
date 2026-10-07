@@ -6,32 +6,33 @@ on:
     # At 01:00 (1 AM) every day
     - cron: '0 1 * * *'
 
+# Each job requests only the permissions it needs.
+permissions: {}
+
 jobs:
-  publish-npm:
+  # Runs third-party dependencies and API calls, so it gets read-only access
+  # and no publishing credentials.
+  build:
     runs-on: ubuntu-latest
 
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
-      contents: write
+      contents: read
+
+    outputs:
+      version: ${{ steps.bump-version.outputs.version }}
 
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: ${{ github.head_ref }}
+          persist-credentials: false
 
       - uses: pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271 # v6.0.9
 
       - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
         with:
           node-version: '24.x'
-          registry-url: 'https://registry.npmjs.org'
           cache: 'pnpm'
-
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile --ignore-scripts
@@ -40,7 +41,7 @@ jobs:
         id: bump-version
         run: |
           VERSION=$(npm version patch --no-git-tag-version)
-          echo "version=${VERSION}" >> $GITHUB_OUTPUT
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
 
       - name: Build assets
         run: pnpm start
@@ -48,17 +49,62 @@ jobs:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
           API_AUTH_TOKEN_GITHUB: ${{ secrets.API_AUTH_TOKEN_GITHUB }}
 
-      - name: Bump version and commit build assets
-        run: |
-          git add data/ build/ package.json
-          git commit -m "ci: update build assets (${{ steps.bump-version.outputs.version }})"
-          git push
-
       # The wallet data component, consumed by brave-core-crx-packager. Same
       # contents as the npm package minus package.json, which only npm needs.
       - name: Package release asset
         working-directory: build
         run: zip -qr ../wallet-lists.zip . -x package.json
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: release
+          path: |
+            build/
+            package.json
+            wallet-lists.zip
+          if-no-files-found: error
+          retention-days: 1
+
+  # Commits, signs and publishes the build output. Runs no project code.
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: release
+
+    permissions:
+      contents: write # push the build commit and create the release
+      id-token: write # sign the build provenance attestation
+      attestations: write
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.head_ref }}
+
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version: '24.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: release
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit build assets
+        run: |
+          git add build/ package.json
+          git commit -m "ci: update build assets (${{ needs.build.outputs.version }})"
+          git push
+
+      - name: Attest release asset
+        uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+        with:
+          subject-path: wallet-lists.zip
 
       - name: Publish NPM package
         run: npm run publish-token-package
@@ -68,7 +114,7 @@ jobs:
       - name: Create release
         uses: softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b # v3.0.1
         with:
-          tag_name: ${{ steps.bump-version.outputs.version }}
+          tag_name: ${{ needs.build.outputs.version }}
           generate_release_notes: true
           make_latest: true
           files: wallet-lists.zip
