@@ -602,13 +602,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/11335/large/2020-05-19-token-200.png?1696511257"
     },
-    "0x08dcb9b5989fb09ef80e85567ec1f49577a70d29": {
-      "name": "Arena-Z",
-      "symbol": "A2Z",
-      "coingeckoId": "arena-z",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/67345/large/logo_transparent_200x200.png?1753173269"
-    },
     "0x090185f2135308bad17527004364ebcc2d37e5f6": {
       "name": "Spell",
       "symbol": "SPELL",
@@ -1183,13 +1176,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/35432/large/NodeAI.png?1722373937"
     },
-    "0x126f5ece91d971f8ad62fa4fc1054456b8bd1111": {
-      "name": "Fuse",
-      "symbol": "FUSE",
-      "coingeckoId": "fuse",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102178484/large/fusing_logo_light-200px.png?1789702432"
-    },
     "0x12970e6868f88f6557b76120662c1b3e50a646bf": {
       "name": "Milady Meme Coin",
       "symbol": "LADYS",
@@ -1260,13 +1246,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/53846/large/lak3_logo200px.png?1737569998"
     },
-    "0x140007c65535aa9c3801ea3bbd3f83c378c7f457": {
-      "name": "Free Speech",
-      "symbol": "𝕏",
-      "coingeckoId": "free-speech-2",
-      "decimals": 9,
-      "logo": "https://coin-images.coingecko.com/coins/images/53125/large/IMG_4112.jpeg?1770806093"
-    },
     "0x1410434b0346f5be678d0fb554e5c7ab620f8f4a": {
       "name": "KAN",
       "symbol": "KAN",
@@ -1329,6 +1308,13 @@
       "coingeckoId": "eth-strategy",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/68171/large/logo-color.png?1754994589"
+    },
+    "0x14d145a695a2e98234e83d8c780f6a5852c3c95b": {
+      "name": "AudaCity",
+      "symbol": "DacityCoin",
+      "coingeckoId": "audacity-2",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/102179969/large/logo.jpg?1793537802"
     },
     "0x14dab79fd7b7b3f748d434812fd6a9aac460ea52": {
       "name": "Kinesis Gold",
@@ -2821,12 +2807,12 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/23718/large/swI93LWg_400x400.jpg?1696522918"
     },
-    "0x32a7c02e79c4ea1008dd6564b35f131428673c41": {
-      "name": "Crust Network",
-      "symbol": "CRU",
-      "coingeckoId": "crust-network",
+    "0x32401b9fb79065bc15949de0bd43927492f02f0c": {
+      "name": "Flowdesk AUSD RWA Strategy",
+      "symbol": "fAUSDe",
+      "coingeckoId": "flowdesk-ausd-rwa-strategy",
       "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/12549/large/sAB3KVzD_400x400.jpg?1696512360"
+      "logo": "https://coin-images.coingecko.com/coins/images/102179950/large/Name_ausd__Confidential_false.png?1793467614"
     },
     "0x32b053f2cba79f80ada5078cb6b305da92bde6e1": {
       "name": "NEURALAI",
@@ -2904,13 +2890,6 @@
       "coingeckoId": "landwolf-eth",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/36996/large/stnMC5pk_400x400.jpg?1713027939"
-    },
-    "0x33b481cbbf3c24f2b3184ee7cb02daad1c4f49a8": {
-      "name": "Dar Open Network",
-      "symbol": "D",
-      "coingeckoId": "dar-open-network",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/53414/large/dar.png?1736325510"
     },
     "0x33d0568941c0c64ff7e0fb4fba0b11bd37deed9f": {
       "name": "RAMP [OLD]",
@@ -3142,6 +3121,13 @@
       "coingeckoId": "broadcom-xstock",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/55592/large/Ticker_AVGO__Company_Name_Broadcom_Inc.__size_200x200_2x.png?1746809042"
+    },
+    "0x38e382f74dfb84608f3c1f10187f6bef5951de93": {
+      "name": "Multibit",
+      "symbol": "MUBI",
+      "coingeckoId": "multibit",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/33051/large/multi.jpg?1700473994"
     },
     "0x38e68a37e401f7271568cecaac63c6b1e19130b4": {
       "name": "Banana Gun",
@@ -3759,13 +3745,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/50814/large/Aryze_Pfp_For_Both.png?1729238552"
     },
-    "0x44e49dde02c954cd9b67923af7b1070412e8f34e": {
-      "name": "Vida Global xStock",
-      "symbol": "VIDAx",
-      "coingeckoId": "vida-global-xstock",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102176425/large/VIDAx.png?1787822930"
-    },
     "0x44e89d34601b8d0155e16634d2553ef7f54dbab2": {
       "name": "Western Digital (Ondo Tokenized)",
       "symbol": "WDCon",
@@ -3835,6 +3814,13 @@
       "coingeckoId": "prisma-mkusd",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/31519/large/mkUSD_200.png?1696530329"
+    },
+    "0x45c2f8c9b4c0bdc76200448cc26c48ab6ffef83f": {
+      "name": "Domi",
+      "symbol": "DOMI",
+      "coingeckoId": "domi",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/21633/large/Transparent_Circle_Logo_2.png?1696520993"
     },
     "0x45e02bc2875a2914c4f585bbf92a6f28bc07cb70": {
       "name": "MBG By Multibank Group",
@@ -4081,13 +4067,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/53783/large/orbiter.jpg?1737352795"
     },
-    "0x4b0ee7c047d43ca403239f28f42115bedb7c0076": {
-      "name": "Oklo xStock",
-      "symbol": "OKLOx",
-      "coingeckoId": "oklo-xstock",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/69622/large/Ticker_OKLOx__Company_Name_Oklo__size_200x200.png?1759233239"
-    },
     "0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8": {
       "name": "Jupiter Project",
       "symbol": "JUP",
@@ -4101,6 +4080,13 @@
       "coingeckoId": "saveplanetearth",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/19759/large/spe.png?1696519182"
+    },
+    "0x4b9278b94a1112cad404048903b8d343a810b07e": {
+      "name": "Hifi Finance",
+      "symbol": "HIFI",
+      "coingeckoId": "hifi-finance",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/28712/large/hft.png?1696527693"
     },
     "0x4b948d64de1f71fcd12fb586f4c776421a35b3ee": {
       "name": "0G",
@@ -4836,13 +4822,6 @@
       "coingeckoId": "ethena",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/36530/large/ethena.png?1711701436"
-    },
-    "0x580e933d90091b9ce380740e3a4a39c67eb85b4c": {
-      "name": "GameSwift",
-      "symbol": "GSWIFT",
-      "coingeckoId": "gameswift",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/30949/large/GameSwift_Token.png?1696529788"
     },
     "0x58100046a4afcd4ee4fadbd4244f3f895a341c56": {
       "name": "SK Hynix xStock",
@@ -5837,13 +5816,6 @@
       "coingeckoId": "fidu",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/25944/large/GFI-asset-icon.png?1696525023"
-    },
-    "0x6a547b25534234bb79ce6961a23db13de154b6f4": {
-      "name": "Tenbin Gold",
-      "symbol": "tGLD",
-      "coingeckoId": "tenbin-gold",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102172708/large/Group_116.png?1777557677"
     },
     "0x6a668332825450acd2e449372057d31b3de16a1e": {
       "name": "Core MSCI Emerging Markets xStock",
@@ -8358,13 +8330,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/33066/large/logo_round_transparent.png?1772560594"
     },
-    "0x9cf12ccd6020b6888e4d4c4e4c7aca33c1eb91f8": {
-      "name": "Asymmetry USDaf",
-      "symbol": "USDaf",
-      "coingeckoId": "asymmetry-usdaf-2",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/67996/large/USDaf_copy.png?1754544041"
-    },
     "0x9d1a7a3191102e9f900faa10540837ba84dcbae7": {
       "name": "Eurite",
       "symbol": "EURI",
@@ -8652,6 +8617,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/37118/large/merlin.jpeg?1713352230"
     },
+    "0xa0cf46eb152656c7090e769916eb44a138aaa406": {
+      "name": "Spheroid Universe",
+      "symbol": "SPH",
+      "coingeckoId": "spheroid-universe",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/11968/large/Frame_36.png?1696511827"
+    },
     "0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f": {
       "name": "Electronic USD",
       "symbol": "eUSD",
@@ -8812,6 +8784,13 @@
       "coingeckoId": "chain-2",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/24210/large/onyxlogo.jpg?1696523397"
+    },
+    "0xa2eaad0d586cf9fd73bb2c09cf6a7e3e187d68cd": {
+      "name": "Wintermute USDC Select",
+      "symbol": "armUSDCs",
+      "coingeckoId": "wintermute-usdc-select",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/102179947/large/true.png?1793467384"
     },
     "0xa2ec76139028f279a1c790d323c57cc4158098d6": {
       "name": "iShares 7-10 Year Treasury Bond ETF (Ondo Tokenized)",
@@ -11382,13 +11361,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/55161/large/mind.jpg?1744276359"
     },
-    "0xd58826d2c0babf1a60d8b508160b52e9c19aff07": {
-      "name": "CYBRO",
-      "symbol": "CYBRO",
-      "coingeckoId": "cybro",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/36941/large/Token_light.png?1760674410"
-    },
     "0xd5c5b2883735fa9b658dd52e2fcc8d7c0f1a42ce": {
       "name": "AppLovin (Ondo Tokenized Stock)",
       "symbol": "APPon",
@@ -11633,13 +11605,6 @@
       "coingeckoId": "russell-2000-xstock",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/69663/large/Ticker_IWMx__Company_Name_Russell_2000__size_200x200.png?1759233850"
-    },
-    "0xdb0170e2d0c1cc1b2e7a90313d9b9afa4f250289": {
-      "name": "ADAPad",
-      "symbol": "ADAPAD",
-      "coingeckoId": "adapad",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/18273/large/EhSqPTtG_400x400.jpg?1696517767"
     },
     "0xdb0482cfad4789798623e64b15eeba01b16e917c": {
       "name": "Johnson & Johnson xStock",
@@ -12453,6 +12418,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102175482/large/logo__200x200.png?1786435089"
     },
+    "0xeb953eda0dc65e3246f43dc8fa13f35623bdd5ed": {
+      "name": "Raini",
+      "symbol": "RAINI",
+      "coingeckoId": "rainicorn",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/14491/large/logo-200x200.png?1696514176"
+    },
     "0xeb964a1a6fab73b8c72a0d15c7337fa4804f484d": {
       "name": "Hemi",
       "symbol": "HEMI",
@@ -12690,13 +12662,6 @@
       "coingeckoId": "bifrost-voucher-manta",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/34707/large/vMANTA.png?1705893023"
-    },
-    "0xf0d33beda4d734c72684b5f9abbebf715d0a7935": {
-      "name": "NuNet",
-      "symbol": "NTX",
-      "coingeckoId": "nunet",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/20950/large/Coingecko_NuNet_Update.png?1761124330"
     },
     "0xf0db65d17e30a966c2ae6a21f6bba71cea6e9754": {
       "name": "Lombard",
@@ -13222,6 +13187,13 @@
       "coingeckoId": "dextools",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/11603/large/dext.png?1696511498"
+    },
+    "0xfbb4f63821e706daf801e440a5893be59094f5cc": {
+      "name": "Faith",
+      "symbol": "FBB4",
+      "coingeckoId": "faith-2",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/68232/large/Faith.jpg?1755152672"
     },
     "0xfbcb83037d770b28f758530022897362521b6141": {
       "name": "BiorLabs",
@@ -14013,13 +13985,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102175227/large/03_Doppler_Symbol_Gradient_onDark_withBG.png?1785842913"
     },
-    "0x07d15798a67253d76cea61f0ea6f57aedc59dffb": {
-      "name": "Based Coin",
-      "symbol": "BASED",
-      "coingeckoId": "based-coin",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/69790/large/based_coin.png?1759654799"
-    },
     "0x07fb80f7a8460de3065d74b2663ba0d740fb3ca5": {
       "name": "Oxbull",
       "symbol": "OXI",
@@ -14579,6 +14544,13 @@
       "coingeckoId": "warp-2",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102172547/large/Warp_Token_200x200.png?1773816398"
+    },
+    "0x1dd2d631c92b1acdfcdd51a0f7145a50130050c4": {
+      "name": "Alien Base",
+      "symbol": "ALB",
+      "coingeckoId": "alienbase",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/31301/large/ALB.png?1720133373"
     },
     "0x1e925de1c68ef83bd98ee3e130ef14a50309c01b": {
       "name": "Exactly Protocol",
@@ -16071,6 +16043,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/35123/large/doginme-logo1-transparent200.png?1710856784"
     },
+    "0x693bad964f815f32fabe0b9d4911865bffc30172": {
+      "name": "MYRAD",
+      "symbol": "MYRAD",
+      "coingeckoId": "myrad",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/102174566/large/myrad-logo.png?1784046618"
+    },
     "0x6967f0974d76d34e140cae27efea32cdf546b58e": {
       "name": "The Game Company",
       "symbol": "GMRT",
@@ -16273,13 +16252,6 @@
       "coingeckoId": "bucket-shop",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102175842/large/bucket-shop-logo-200.png?1789713079"
-    },
-    "0x73ad4f49753fb877761d68be903b299464f92470": {
-      "name": "South Africa Fan Token",
-      "symbol": "SAFA",
-      "coingeckoId": "south-africa-fan-token",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102173642/large/SAFA.png?1780648409"
     },
     "0x741bd193b6b40f8703d2e116fd1965421f290f58": {
       "name": "evaUSDC",
@@ -16574,13 +16546,6 @@
       "coingeckoId": "flamengo-fan-token",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/19461/large/MENGO.png?1741579338"
-    },
-    "0x83190636c344cf1220ffcbfc0c1198f7867b3667": {
-      "name": "JOOCE Memecoin Index",
-      "symbol": "JMX",
-      "coingeckoId": "jooce-memecoin-index",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/55641/large/JMX_dex_logo_blue_bg.png?1746863772"
     },
     "0x832b55b0fa6397ca9e63b8c15dadef3f6e44614c": {
       "name": "Dual",
@@ -18157,6 +18122,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102173362/large/oso-image.png?1779205285"
     },
+    "0xc796e499cc8f599a2a8280825d8bda92f7a895e0": {
+      "name": "Neurobro",
+      "symbol": "BRO",
+      "coingeckoId": "neurobro",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/52649/large/neurobro_logo_red_eyes_200_200.png?1764684610"
+    },
     "0xc7dcca0a3e69bd762c8db257f868f76be36c8514": {
       "name": "KiboShib",
       "symbol": "KIBSHI",
@@ -19685,6 +19657,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/17803/large/IDIA.png?1696517325"
     },
+    "0x0b6d8934fc8838b1027b510364a2087317bd4444": {
+      "name": "Bibi",
+      "symbol": "bibi",
+      "coingeckoId": "bibi-3",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/102174533/large/bozttspas2obyjw92qj1lqh8ddol.?1783952089"
+    },
     "0x0bb150dfa86ea5d7742f07fefcd8e8eda81d64ef": {
       "name": "Saturn Dollar",
       "symbol": "USDat",
@@ -21197,6 +21176,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/32793/large/shrapnel.png?1699441661"
     },
+    "0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377": {
+      "name": "Mobox",
+      "symbol": "MBOX",
+      "coingeckoId": "mobox",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/14751/large/mobox.PNG?1696514420"
+    },
     "0x3220ccbbc29d727bde85b7333d31b21e0d6bc6f4": {
       "name": "Pup Doge",
       "symbol": "PupDoge",
@@ -21462,6 +21448,13 @@
       "coingeckoId": "broadcom-xstock",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/55592/large/Ticker_AVGO__Company_Name_Broadcom_Inc.__size_200x200_2x.png?1746809042"
+    },
+    "0x38e382f74dfb84608f3c1f10187f6bef5951de93": {
+      "name": "Multibit",
+      "symbol": "MUBI",
+      "coingeckoId": "multibit",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/33051/large/multi.jpg?1700473994"
     },
     "0x38f9bf9dce51833ec7f03c9dc218197999999999": {
       "name": "Nya",
@@ -21855,26 +21848,12 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/71205/large/BTW_Token_200x200.png?1786291907"
     },
-    "0x44440f83419de123d7d411187adb9962db017d03": {
-      "name": "币安Holder",
-      "symbol": "BNBHolder",
-      "coingeckoId": "bian-holder",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/70076/large/bnbholder.png?1760512499"
-    },
     "0x44443dd87ec4d1bea3425acc118adb023f07f91b": {
       "name": "修仙 (XiuXian)",
       "symbol": "修仙",
       "coingeckoId": "xiuxian",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/69962/large/kv7vbwrj47ac0kixzx5otsau24n1.?1760172552"
-    },
-    "0x44e49dde02c954cd9b67923af7b1070412e8f34e": {
-      "name": "Vida Global xStock",
-      "symbol": "VIDAx",
-      "coingeckoId": "vida-global-xstock",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102176425/large/VIDAx.png?1787822930"
     },
     "0x44ec807ce2f4a6f2737a92e985f318d035883e47": {
       "name": "Hashflow",
@@ -22198,13 +22177,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102175192/large/FLCNB.png?1785458741"
     },
-    "0x4b0ee7c047d43ca403239f28f42115bedb7c0076": {
-      "name": "Oklo xStock",
-      "symbol": "OKLOx",
-      "coingeckoId": "oklo-xstock",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/69622/large/Ticker_OKLOx__Company_Name_Oklo__size_200x200.png?1759233239"
-    },
     "0x4b0f1812e5df2a09796481ff14017e6005508003": {
       "name": "Trust Wallet",
       "symbol": "TWT",
@@ -22414,6 +22386,13 @@
       "coingeckoId": "golden-butterfly-sacred-armor",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102174668/large/2.jpg?1784538557"
+    },
+    "0x4f0ed1f48beaa4797a62202a21804cadc2170d6b": {
+      "name": "ShopinX",
+      "symbol": "SHOPINX",
+      "coingeckoId": "shopinx-2",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/102179741/large/shopinx.png?1792799385"
     },
     "0x4fc5b9f8933597d3ecf84d0611687e1dc8dd576f": {
       "name": "SPDR Bloomberg 1-3 Month T-Bill ETF (Anchored Tokenized ETF)",
@@ -22779,13 +22758,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/33172/large/Befe_5.png?1700919971"
     },
-    "0x57aedac0ccaafdec0ec62fc4fbfd8252735affff": {
-      "name": "REAL WORLD APPAREL",
-      "symbol": "JACKET",
-      "coingeckoId": "real-world-apparel",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102175230/large/96kand7ht5b6f9i5bom31z49dux2.?1785852413"
-    },
     "0x57bfe2af99aeb7a3de3bc0c42c22353742bfd20d": {
       "name": "Water Rabbit",
       "symbol": "WAR",
@@ -22988,13 +22960,6 @@
       "coingeckoId": "cow-protocol",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/24384/large/CoW-token_logo.png?1719524382"
-    },
-    "0x5c4bcc4dbaeabc7659f6435bce4e659314ebad87": {
-      "name": "NuNet",
-      "symbol": "NTX",
-      "coingeckoId": "nunet",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/20950/large/Coingecko_NuNet_Update.png?1761124330"
     },
     "0x5c85d6c6825ab4032337f11ee92a72df936b46f6": {
       "name": "Mubarak",
@@ -24921,13 +24886,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/24383/large/APECOIN.png?1756551529"
     },
-    "0x8fb238058e71f828f505582e65b1d14f8cf52067": {
-      "name": "Dar Open Network",
-      "symbol": "D",
-      "coingeckoId": "dar-open-network",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/53414/large/dar.png?1736325510"
-    },
     "0x8fce7206e3043dd360f115afa956ee31b90b787c": {
       "name": "Starpower",
       "symbol": "STAR",
@@ -25355,6 +25313,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/55464/large/BOOP_coin_UI_4x.png?1746504130"
     },
+    "0x9aeb2e6dd8d55e14292acfcfc4077e33106e4144": {
+      "name": "Platform of meme coins",
+      "symbol": "PAYU",
+      "coingeckoId": "platform-of-meme-coins",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/30615/large/200px.png?1696529484"
+    },
     "0x9b17baadf0f21f03e35249e0e59723f34994f806": {
       "name": "inSure DeFi",
       "symbol": "SURE",
@@ -25516,13 +25481,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/70944/large/power.png?1764744522"
     },
-    "0x9df465460938f9ebdf51c38cc87d72184471f8f0": {
-      "name": "Genopets",
-      "symbol": "GENE",
-      "coingeckoId": "genopets",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/20360/large/gene-token.png?1696519768"
-    },
     "0x9e20461bc2c4c980f62f1b279d71734207a6a356": {
       "name": "OmniCat",
       "symbol": "OMNI",
@@ -25655,13 +25613,6 @@
       "coingeckoId": "automata",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/15985/large/ATA_Icon_%28Profile_2%29.png?1720487988"
-    },
-    "0xa226dfdd0e2168676ba13889e93c07ce3a0b4e37": {
-      "name": "Real World Services",
-      "symbol": "RWS",
-      "coingeckoId": "real-world-services",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102172512/large/photo_2026-02-14_11-38-19.jpg?1773646199"
     },
     "0xa227cc36938f0c9e09ce0e64dfab226cad739447": {
       "name": "OpenLedger",
@@ -25915,13 +25866,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102179566/large/dna.png?1792145606"
     },
-    "0xa9972b1fac35fdd8cbdbaa315a002b2ad91d2ad6": {
-      "name": "CYBRO",
-      "symbol": "CYBRO",
-      "coingeckoId": "cybro",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/36941/large/Token_light.png?1760674410"
-    },
     "0xa9d72f6c1490647df20e8fad3c136ca6ac42c2fc": {
       "name": "ZARO Coin",
       "symbol": "ZARO",
@@ -25977,13 +25921,6 @@
       "coingeckoId": "qanplatform",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/15977/large/qanx.png?1696515591"
-    },
-    "0xaac5bf838926347def35e565a146fa383106e744": {
-      "name": "MAVRO",
-      "symbol": "MAVRO",
-      "coingeckoId": "mavro-2",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102175553/large/N-68uelW_400x400.jpg?1786821561"
     },
     "0xab3dbcd9b096c3ff76275038bf58eac10d22c61f": {
       "name": "Aegis YUSD",
@@ -26523,6 +26460,13 @@
       "coingeckoId": "gamecow",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102173972/large/IMG_20260614_160308_058.jpg?1781621215"
+    },
+    "0xbbca42c60b5290f2c48871a596492f93ff0ddc82": {
+      "name": "Domi",
+      "symbol": "DOMI",
+      "coingeckoId": "domi",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/21633/large/Transparent_Circle_Logo_2.png?1696520993"
     },
     "0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9": {
       "name": "Backed Coinbase Global",
@@ -27154,13 +27098,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/20619/large/irt.PNG?1696520024"
     },
-    "0xccd6b38fffeeab9c0ac2413bccf8b0aced748881": {
-      "name": "Kuvi",
-      "symbol": "KUVI",
-      "coingeckoId": "kuvi",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102172797/large/Kuvi_logo_transparent_white_24.png?1775787957"
-    },
     "0xcce5f304fd043d6a4e8ccb5376a4a4fb583b98d5": {
       "name": "Allora",
       "symbol": "ALLO",
@@ -27707,13 +27644,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/55050/large/STO-white-bg.png?1743437541"
     },
-    "0xdb0170e2d0c1cc1b2e7a90313d9b9afa4f250289": {
-      "name": "ADAPad",
-      "symbol": "ADAPAD",
-      "coingeckoId": "adapad",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/18273/large/EhSqPTtG_400x400.jpg?1696517767"
-    },
     "0xdb021b1b247fe2f1fa57e0a87c748cc1e321f07f": {
       "name": "Ampleforth",
       "symbol": "AMPL",
@@ -27783,6 +27713,13 @@
       "coingeckoId": "elephant-money-trunk",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/39568/large/trunk-logo.png?1722929241"
+    },
+    "0xdd806e436dda5588bf54061c11590c77ddc87777": {
+      "name": "Funds Are Safu",
+      "symbol": "SAFU",
+      "coingeckoId": "funds-are-safu-2",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/102179944/large/token-logo-200x200.png?1793466479"
     },
     "0xde009cb3371825bafb80a01004c58f8166ee13d5": {
       "name": "Little Ugly Duck",
@@ -28315,6 +28252,13 @@
       "coingeckoId": "byteball",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/561/large/byteball.png?1696501768"
+    },
+    "0xeb953eda0dc65e3246f43dc8fa13f35623bdd5ed": {
+      "name": "Raini",
+      "symbol": "RAINI",
+      "coingeckoId": "rainicorn",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/14491/large/logo-200x200.png?1696514176"
     },
     "0xebaffc2d2ea7c66fb848c48124b753f93a0a90ec": {
       "name": "Asia Coin",
@@ -29214,6 +29158,13 @@
     }
   },
   "0x65": {
+    "1226TMaWZiZYWdP7CBZBqfJGXoWXaKXJJiKf45e5xfun": {
+      "name": "PUMPSTOP",
+      "symbol": "XCAT",
+      "coingeckoId": "pumpstop",
+      "decimals": 9,
+      "logo": "https://coin-images.coingecko.com/coins/images/102179942/large/PUMPSTOP.jpg?1793466052"
+    },
     "123mYEnRLM2LLYsJW3K6oyYh8uP1fngj732iG638ondo": {
       "name": "Apple (Ondo Tokenized Stock)",
       "symbol": "AAPLON",
@@ -29409,13 +29360,6 @@
       "coingeckoId": "alibaba-ondo-tokenized-stock",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/68600/large/babaon_160x160.png?1756129931"
-    },
-    "22rWiyDiY9GgxSrFiWC2vX1GxNxjkvrRPmZJDzv9pq6X": {
-      "name": "PARANOID",
-      "symbol": "PARANOID",
-      "coingeckoId": "paranoid",
-      "decimals": 9,
-      "logo": "https://coin-images.coingecko.com/coins/images/102179842/large/xGREHK_a_400x400.jpg?1793184377"
     },
     "23Y1bUqVcJsvWH9WpVJfj1xDozq2GdKbEhRSdGhDpump": {
       "name": "Solomon",
@@ -29620,13 +29564,6 @@
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/38534/large/tate.png?1717785682"
     },
-    "2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": {
-      "name": "Inverse",
-      "symbol": "INVERSE",
-      "coingeckoId": "inverse",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/102179850/large/inverse.jpg?1793244909"
-    },
     "2gYhGaFMBiPC2bBibG7yKZk94uJw2fcq6DtpYP7ZUory": {
       "name": "Lumena",
       "symbol": "LUMENA",
@@ -29689,6 +29626,13 @@
       "coingeckoId": "copper",
       "decimals": 2,
       "logo": "https://coin-images.coingecko.com/coins/images/66705/large/200.png?1750268346"
+    },
+    "2pouN3by7twkiZGy5aEKYUpf78ALDpKRTNu2WsQkpkqt": {
+      "name": "Buttensor",
+      "symbol": "BUTT",
+      "coingeckoId": "buttensor-2",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/102176816/large/mcsuwsnbkfuviivwkkrfk6xb9hof.?1788775297"
     },
     "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump": {
       "name": "Peanut the Squirrel",
@@ -29808,13 +29752,6 @@
       "coingeckoId": "billy",
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/38745/large/BILLY.jpg?1718680214"
-    },
-    "3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": {
-      "name": "XD",
-      "symbol": "XD",
-      "coingeckoId": "xd-3",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/102179797/large/zc9y09b9mx26bvk83lpv4zgapqxv.?1793099401"
     },
     "3BWA5RBXyPXuMGZmVL8Snefu573FMJNGpsVi79baiBLV": {
       "name": "Polymtrade",
@@ -30221,13 +30158,6 @@
       "coingeckoId": "zama",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/70921/large/zama.png?1764591992"
-    },
-    "4bY7N2hPq4aHQJwbhawceNqS5ksyQAayiLEsjNMwpump": {
-      "name": "Community Alliance Token",
-      "symbol": "COMAT",
-      "coingeckoId": "community-alliance-token",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/70789/large/1000910993.jpg?1763752969"
     },
     "4eDf52YYzL6i6gbZ6FXqrLUPXbtP61f1gPSFM66M4XHe": {
       "name": "SOON",
@@ -30775,6 +30705,13 @@
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/40149/large/44dBwRVu_400x400.jpg?1726052405"
     },
+    "6Rwcmkz9yiYVM5EzyMcr4JsQPGEAWhcUvLvfBperYnUt": {
+      "name": "Kitten Wif Hat",
+      "symbol": "KWIF",
+      "coingeckoId": "kitten-wif-hat",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/51031/large/logoCG.jpg?1729792010"
+    },
     "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5": {
       "name": "Solrouter",
       "symbol": "ROUTER",
@@ -30859,13 +30796,6 @@
       "decimals": 8,
       "logo": "https://coin-images.coingecko.com/coins/images/8834/large/CHZ_Token_updated.png?1696508986"
     },
-    "6iLrk475gh1yUv1tQKSC5nUugAHgxeTUf2GTo1Xvsz5m": {
-      "name": "BitcoinX",
-      "symbol": "BTCX",
-      "coingeckoId": "bitcoinx-3",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/102176947/large/ChatGPT_Image_Sep_7__2026__11_05_26_PM.png?1789089973"
-    },
     "6mJoQqcPEjiQ1hFya9oH6NBCQLhvS3mwVQWV9EcTHg9u": {
       "name": "tomochi",
       "symbol": "TOMOCHI",
@@ -30893,13 +30823,6 @@
       "coingeckoId": "official-trump",
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/53746/large/trump.png?1737171561"
-    },
-    "6uUU2z5GBasaxnkcqiQVHa2SXL68mAXDsq1zYN5Qxrm7": {
-      "name": "StakePoint",
-      "symbol": "SPT",
-      "coingeckoId": "stakepoint",
-      "decimals": 9,
-      "logo": "https://coin-images.coingecko.com/coins/images/102174095/large/1000252087.jpg?1782289516"
     },
     "6xHEyem9hmkGtVq6XGCiQUGpPsHBaoYuYdFNZa5ondo": {
       "name": "Circle Internet Group (Ondo Tokenized Stock)",
@@ -31377,13 +31300,6 @@
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/66898/large/sixsigma_green_logo_trans_1.png?1750950326"
     },
-    "8H5yfL1GoDETLDaLYZzrgQuZs37eiKJjdfP21b6ypump": {
-      "name": "SAAR",
-      "symbol": "SAAR",
-      "coingeckoId": "saar",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/102176772/large/saar.jpg?1788680340"
-    },
     "8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump": {
       "name": "Wojak",
       "symbol": "WOJAK",
@@ -31432,6 +31348,13 @@
       "coingeckoId": "rhea-2",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/67682/large/RHEA_Logo.png?1753517263"
+    },
+    "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": {
+      "name": "Network Coin",
+      "symbol": "NETWORK",
+      "coingeckoId": "network-coin",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/102179974/large/imresizer-resize-IMAGE_2026-10-30_095637.png?1793539583"
     },
     "8UKuetxWnpC9Po9Mpf3ptT2wEvkqg9GxZWnnx4VPhpeD": {
       "name": "Punkvism",
@@ -31614,6 +31537,13 @@
       "coingeckoId": "ishares-msci-emerging-markets-etf-ondo-tokenized-etf",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/68550/large/eemon_160x160.png?1756105571"
+    },
+    "92cRC6kV5D7TiHX1j56AbkPbffo9jwcXxSDQZ8Mopump": {
+      "name": "FXN",
+      "symbol": "FXN",
+      "coingeckoId": "fxn",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/52244/large/FXN_Chrome-Full.png?1732817709"
     },
     "93bVs9o8Nq88zxnLWwUAVfN5PXBhCcnV5sfs6AFLno8q": {
       "name": "Rivalz Network",
@@ -33323,6 +33253,13 @@
       "decimals": 8,
       "logo": "https://coin-images.coingecko.com/coins/images/11335/large/2020-05-19-token-200.png?1696511257"
     },
+    "CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h": {
+      "name": "artificial gooner intelligence",
+      "symbol": "AGI",
+      "coingeckoId": "artificial-gooner-intelligence",
+      "decimals": 9,
+      "logo": "https://coin-images.coingecko.com/coins/images/102176770/large/729sjd98i9v0afo3obo4t8v35xle.?1788680008"
+    },
     "CboMcTUYUcy9E6B3yGdFn6aEsGUnYV6yWeoeukw6pump": {
       "name": "Butthole Coin",
       "symbol": "BUTTHOLE",
@@ -33729,13 +33666,6 @@
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/24289/large/6388d49d-1f00-448d-92bc-f2db1441bbce.?1696523472"
     },
-    "DUhWgHD3KgHHmsYdQdJHDv359bySNzigYcqJ45Gcpump": {
-      "name": "Grrr",
-      "symbol": "GRRR",
-      "coingeckoId": "grrr",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/54713/large/polish_save.png?1741185195"
-    },
     "DVr62PSjVCrEwmWVRdKQABqJumb1jmJGKa8BkUG6pump": {
       "name": "DEV TOMMY JINGL",
       "symbol": "TOMMYJINGL",
@@ -33994,6 +33924,13 @@
       "coingeckoId": "dither",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/35415/large/dithering.png?1708506777"
+    },
+    "E3yUqBNTZxV8ELvW99oRLC7z4ddbJqqR4NphwrMug9zu": {
+      "name": "COAL",
+      "symbol": "COAL",
+      "coingeckoId": "coal-2",
+      "decimals": 11,
+      "logo": "https://coin-images.coingecko.com/coins/images/50901/large/icon.png?1729519155"
     },
     "E5Gczsavxcomqf6Cw1sGCKLabL1xYD2FzKxVoB4ondo": {
       "name": "JPMorgan Chase (Ondo Tokenized Stock)",
@@ -34338,13 +34275,6 @@
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/102172414/large/uraon_160x160.png?1773392907"
     },
-    "EwBBVWVueeUagquPM6HqeoE9zCUwdhu5tQCmvWhWbxnH": {
-      "name": "South Africa Fan Token",
-      "symbol": "SAFA",
-      "coingeckoId": "south-africa-fan-token",
-      "decimals": 9,
-      "logo": "https://coin-images.coingecko.com/coins/images/102173642/large/SAFA.png?1780648409"
-    },
     "Ex8hKasfFCfj3yGuN5TyYRUjHePgVs3uYUJRT8geT7rv": {
       "name": "apyUSD",
       "symbol": "APYUSD",
@@ -34512,6 +34442,13 @@
       "coingeckoId": "wilder-world",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/15407/large/wld-logo.png?1712273448"
+    },
+    "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": {
+      "name": "Leverhedge",
+      "symbol": "LEVERHEDGE",
+      "coingeckoId": "leverhedge",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/102179972/large/logo.jpg?1793539001"
     },
     "FX2XCcCv1qLuSagGgK8oRR7vzb9iyQgaM45DSG7gJQsF": {
       "name": "Alfa Romeo Racing ORLEN Fan Token",
@@ -34722,13 +34659,6 @@
       "coingeckoId": "crown-by-third-time-games",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/30452/large/crown_200_transparent.png?1696529338"
-    },
-    "GENEtH5amGSi8kHAtQoezp1XEXwZJ8vcuePYnXdKrMYz": {
-      "name": "Genopets",
-      "symbol": "GENE",
-      "coingeckoId": "genopets",
-      "decimals": 9,
-      "logo": "https://coin-images.coingecko.com/coins/images/20360/large/gene-token.png?1696519768"
     },
     "GGUSDyBUPFg5RrgWwqEqhXoha85iYGs6cL57SyK4G2Y7": {
       "name": "Good Game US Dollar",
@@ -35059,13 +34989,6 @@
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/69033/large/IMG_9125.jpeg?1757320064"
     },
-    "H4KUxsEgCp2yDpFvyDuGM5k6XevSKKrrKUxZ3Zr6nyJc": {
-      "name": "cockroach",
-      "symbol": "COCKROACH",
-      "coingeckoId": "cockroach",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/102179291/large/7luczquq47l7a482q76fcbvczeu4.?1791438790"
-    },
     "H5qGPniSX2uCNtAnxr7RpdfFAZcGkr6dknjgpa1AKHe1": {
       "name": "AC Milan Fan Token",
       "symbol": "ACM",
@@ -35093,13 +35016,6 @@
       "coingeckoId": "crecoin",
       "decimals": 3,
       "logo": "https://coin-images.coingecko.com/coins/images/102171792/large/_126563fc-8904-458d-a237-fca604dd853c.jpg?1769728414"
-    },
-    "H9pPKejchJ9LCWpb1P8p4BmrjzCFARUmA7XtJK4pVhCZ": {
-      "name": "Addicted Cat",
-      "symbol": "MCAT",
-      "coingeckoId": "addicted-cat",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/102179325/large/MCAT_-_PFP_SQUARE_LARGER.png?1793241819"
     },
     "HAPPYwgFcjEJDzRtfWE6tiHE9zGdzpNky2FvjPHsvvGZ": {
       "name": "Happy Cat",
@@ -35479,6 +35395,13 @@
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/71798/large/photo_2026-01-25_08-52-49.jpg?1769428507"
     },
+    "Hmeju3J16Cbx1D6snGFNDGTV32AS9TYPaXyVYHBqpump": {
+      "name": "2027",
+      "symbol": "2027",
+      "coingeckoId": "2027-token",
+      "decimals": 6,
+      "logo": "https://coin-images.coingecko.com/coins/images/102175419/large/2027_logo.png?1786296340"
+    },
     "HmjCoarLh5duURfJ333DwfFiPyTCgFT35pRSAoP8pump": {
       "name": "TokenOS AI",
       "symbol": "TOS",
@@ -35660,13 +35583,6 @@
       "coingeckoId": "home",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/54873/large/defi-app.png?1742235743"
-    },
-    "J4ywFdm8H7hjwKzCaEQujhkDRfCnRviVnHMvFNDAoLNQ": {
-      "name": "Soul Scanner",
-      "symbol": "SOUL",
-      "coingeckoId": "soul-scanner",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/34471/large/IMG_20240101_091349_872.jpg?1704997031"
     },
     "J6MZ299GjaeEXMk7easK9NkpiRHKsmxnQDr2ZqiqVYUL": {
       "name": "Infinity Gaming",
@@ -35912,13 +35828,6 @@
       "coingeckoId": "palo-alto-networks-ondo-tokenized-stock",
       "decimals": 9,
       "logo": "https://coin-images.coingecko.com/coins/images/68599/large/panwon_160x160.png?1756129923"
-    },
-    "MAPS41MDahZ9QdKXhVa4dWB9RuyfV4XqhyAZ8XcYepb": {
-      "name": "MAPS",
-      "symbol": "MAPS",
-      "coingeckoId": "maps",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/13556/large/Copy_of_image_%28139%29.png?1696513311"
     },
     "MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u": {
       "name": "Magic Eden",
@@ -36760,13 +36669,6 @@
       "decimals": 8,
       "logo": "https://coin-images.coingecko.com/coins/images/55620/large/Ticker_JNJ__Company_Name_johnson-johnson__size_200x200_2x.png?1746861691"
     },
-    "XsJb1p4Ks6VFggq68JyMz7S3kdRfkqh4wA6EMyxi4DD": {
-      "name": "Oklo xStock",
-      "symbol": "OKLOX",
-      "coingeckoId": "oklo-xstock",
-      "decimals": 8,
-      "logo": "https://coin-images.coingecko.com/coins/images/69622/large/Ticker_OKLOx__Company_Name_Oklo__size_200x200.png?1759233239"
-    },
     "XsMAqkcKsUewDrzVkait4e5u4y8REgtyS7jWgCpLV2C": {
       "name": "JPMorgan Chase xStock",
       "symbol": "JPMX",
@@ -36906,13 +36808,6 @@
       "coingeckoId": "novo-nordisk-xstock",
       "decimals": 8,
       "logo": "https://coin-images.coingecko.com/coins/images/55652/large/Ticker_NOVO_B__Company_Name_SP500__size_200x200_2x.png?1746864314"
-    },
-    "XsfCC9VL4DamVGNgdJpfLXB3sBVa158Gbx8sh7NzmTk": {
-      "name": "Vida Global xStock",
-      "symbol": "VIDAX",
-      "coingeckoId": "vida-global-xstock",
-      "decimals": 8,
-      "logo": "https://coin-images.coingecko.com/coins/images/102176425/large/VIDAx.png?1787822930"
     },
     "XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": {
       "name": "Broadcom xStock",
@@ -38356,13 +38251,6 @@
       "decimals": 8,
       "logo": "https://coin-images.coingecko.com/coins/images/39772/large/xnetlogonew.png?1724176673"
     },
-    "xgC6VcsoC43ejNvPjwVLgp8KpPVfau9aYqHGX3WDrop": {
-      "name": "Airdrops Quest",
-      "symbol": "DROP",
-      "coingeckoId": "airdrops-quest",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/102172913/large/_DROP_icon_200*200.jpg?1776528624"
-    },
     "xxxxa1sKNGwFtw2kFn8XauW9xq8hBZ5kVtcSesTT9fW": {
       "name": "Solanium",
       "symbol": "SLIM",
@@ -38834,6 +38722,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/70880/large/wmxn_logo_1.png?1764392404"
     },
+    "0x33b6d77c607ea499ab5db7e2201c5a516a78a5db": {
+      "name": "AIMX",
+      "symbol": "AIMX",
+      "coingeckoId": "aimedis-new",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/29252/large/Aimedis_Logo_tg.png?1696528207"
+    },
     "0x35b937583f04a24963eb685f728a542240f28dd8": {
       "name": "saffron.finance",
       "symbol": "SFI",
@@ -39176,6 +39071,13 @@
       "coingeckoId": "safe-haven",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/2584/large/safehaven.png?1696503388"
+    },
+    "0x53df32548214f51821cf1fe4368109ac5ddea1ff": {
+      "name": "Sponge",
+      "symbol": "SPONGE",
+      "coingeckoId": "sponge-2",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/35467/large/sponge.jpeg?1708688227"
     },
     "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39": {
       "name": "Chainlink",
@@ -39939,6 +39841,13 @@
       "coingeckoId": "atari",
       "decimals": 0,
       "logo": "https://coin-images.coingecko.com/coins/images/12992/large/AtariLogoPS_200x200_%281%29.png?1696512782"
+    },
+    "0xb1a91036e4a3c144efed953e0b6cc5f6b98ad256": {
+      "name": "Multibit",
+      "symbol": "MUBI",
+      "coingeckoId": "multibit",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/33051/large/multi.jpg?1700473994"
     },
     "0xb25e20de2f2ebb4cffd4d16a55c7b395e8a94762": {
       "name": "Request",
@@ -40964,13 +40873,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/25244/large/Token.png?1774456081"
     },
-    "0x44e49dde02c954cd9b67923af7b1070412e8f34e": {
-      "name": "Vida Global xStock",
-      "symbol": "VIDAx",
-      "coingeckoId": "vida-global-xstock",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102176425/large/VIDAx.png?1787822930"
-    },
     "0x46777c76dbbe40fabb2aab99e33ce20058e76c59": {
       "name": "Layer3",
       "symbol": "L3",
@@ -40998,13 +40900,6 @@
       "coingeckoId": "venus",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/12677/large/XVS_Token.jpg?1727454303"
-    },
-    "0x4b0ee7c047d43ca403239f28f42115bedb7c0076": {
-      "name": "Oklo xStock",
-      "symbol": "OKLOx",
-      "coingeckoId": "oklo-xstock",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/69622/large/Ticker_OKLOx__Company_Name_Oklo__size_200x200.png?1759233239"
     },
     "0x4e107a0000db66f0e9fd2039288bf811dd1f9c74": {
       "name": "Velora",
@@ -42478,13 +42373,6 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/18111/large/Doge.png?1696517615"
     },
-    "0x44e49dde02c954cd9b67923af7b1070412e8f34e": {
-      "name": "Vida Global xStock",
-      "symbol": "VIDAx",
-      "coingeckoId": "vida-global-xstock",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102176425/large/VIDAx.png?1787822930"
-    },
     "0x44f49ff0da2498bcb1d3dc7c0f999578f67fd8c6": {
       "name": "Corn",
       "symbol": "CORN",
@@ -42568,13 +42456,6 @@
       "coingeckoId": "salesforce-xstock",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/55647/large/Ticker_CRM__Company_Name_SP500__size_200x200_2x.png?1746864230"
-    },
-    "0x4b0ee7c047d43ca403239f28f42115bedb7c0076": {
-      "name": "Oklo xStock",
-      "symbol": "OKLOx",
-      "coingeckoId": "oklo-xstock",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/69622/large/Ticker_OKLOx__Company_Name_Oklo__size_200x200.png?1759233239"
     },
     "0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66": {
       "name": "Xai",
@@ -42736,13 +42617,6 @@
       "coingeckoId": "nike-rstock",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/102177358/large/NKE.png?1789117654"
-    },
-    "0x580e933d90091b9ce380740e3a4a39c67eb85b4c": {
-      "name": "GameSwift",
-      "symbol": "GSWIFT",
-      "coingeckoId": "gameswift",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/30949/large/GameSwift_Token.png?1696529788"
     },
     "0x5829d6fe7528bc8e92c4e81cc8f20a528820b51a": {
       "name": "Overtime",
@@ -43345,13 +43219,6 @@
       "coingeckoId": "goldenboys",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/31353/large/goldenboys.png?1696530170"
-    },
-    "0x8bc265393fa781105d0308f46023014b7cc5441d": {
-      "name": "Rhubarb",
-      "symbol": "RHUB",
-      "coingeckoId": "rhubarb",
-      "decimals": 18,
-      "logo": "https://coin-images.coingecko.com/coins/images/102176883/large/rhubarb_pfp.jpg?1788961078"
     },
     "0x8c1ea32448e09a59f36595abec6207c9ebd590a2": {
       "name": "Plutus",
@@ -44248,6 +44115,13 @@
       "coingeckoId": "marlin",
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/8903/large/200x200.png?1706115827"
+    },
+    "0xda661fa59320b808c5a6d23579fcfedf1fd3cf36": {
+      "name": "Mobox",
+      "symbol": "MBOX",
+      "coingeckoId": "mobox",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/14751/large/mobox.PNG?1696514420"
     },
     "0xda7c9549e87d4f96585701970acdcc90e8d35024": {
       "name": "Microsoft Tokenized Stock (Reality)",
@@ -45903,6 +45777,13 @@
       "decimals": 18,
       "logo": "https://coin-images.coingecko.com/coins/images/30663/large/gho-token-logo.png?1720517092"
     },
+    "0xfc6da929c031162841370af240dec19099861d3b": {
+      "name": "Domi",
+      "symbol": "DOMI",
+      "coingeckoId": "domi",
+      "decimals": 18,
+      "logo": "https://coin-images.coingecko.com/coins/images/21633/large/Transparent_Circle_Logo_2.png?1696520993"
+    },
     "0xfc8a21dbcab432fb5e469d80f976e022c2f56ea0": {
       "name": "MetaMUI",
       "symbol": "MMUI",
@@ -46149,13 +46030,6 @@
       "coingeckoId": "ascend-3",
       "decimals": 6,
       "logo": "https://coin-images.coingecko.com/coins/images/102173048/large/Frame_512919166.png?1777480999"
-    },
-    "edfd7a1d77bcb8b884c474bdc92a16002d1fb720e454fa6e993444794e5458": {
-      "name": "NuNet",
-      "symbol": "NTX",
-      "coingeckoId": "nunet",
-      "decimals": 6,
-      "logo": "https://coin-images.coingecko.com/coins/images/20950/large/Coingecko_NuNet_Update.png?1761124330"
     },
     "f13ac4d66b3ee19a6aa0f2a22298737bd907cc95121662fc971b5275535452494b45": {
       "name": "Strike",
