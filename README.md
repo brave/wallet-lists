@@ -1,6 +1,6 @@
 # wallet-lists
 
-[![Build](https://github.com/brave/wallet-lists/actions/workflows/build.yml/badge.svg)](https://github.com/brave/wallet-lists/actions/workflows/build.yml) [![npm version](https://badge.fury.io/js/@brave%2Fwallet-lists.svg?icon=si%3Anpm)](https://badge.fury.io/js/@brave%2Fwallet-lists)
+[![Build](https://github.com/brave/wallet-lists/actions/workflows/build.yml/badge.svg)](https://github.com/brave/wallet-lists/actions/workflows/build.yml)
 
 Manages custom wallet lists for Brave Wallet
 
@@ -13,9 +13,9 @@ gh attestation verify wallet-lists.zip --repo brave/wallet-lists \
   --signer-workflow brave/wallet-lists/.github/workflows/auto-release.yml
 ```
 
-The same contents are also published to npm as `@brave/wallet-lists` while consumers migrate off it ([#369](https://github.com/brave/wallet-lists/issues/369)).
+Nothing is published to npm. The `@brave/wallet-lists` npm package is no longer updated ([#369](https://github.com/brave/wallet-lists/issues/369)).
 
-A **weekly** cron job on [Jenkins](https://github.com/brave/devops/blob/master/jenkins/jobs/extensions/brave-core-ext-wallet-data-files-update-publish.yml) packages the latest NPM package into the wallet data files component.
+A **weekly** cron job on [Jenkins](https://github.com/brave/devops/blob/master/jenkins/jobs/extensions/brave-core-ext-wallet-data-files-update-publish.yml) runs [brave/brave-core-crx-packager](https://github.com/brave/brave-core-crx-packager), which downloads and verifies the latest release and packages it into the wallet data files component.
 
 ## Development
 
@@ -60,13 +60,6 @@ pnpm lint
   pnpm install
   pnpm start
   ```
-
-## Publishing wallet list to npm
-
-[brave/brave-core-crx-packager](https://github.com/brave/brave-core-crx-packager) uses the npm package published [here @brave/wallet-lists](https://www.npmjs.com/package/@brave/wallet-lists). It will be automatically published when your
-PR is merged and a new release is created.
-
-This produces a zero-dependency package with output images and wallet lists.
 
 ## Testing a deployment
 

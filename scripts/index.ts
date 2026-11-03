@@ -11,18 +11,6 @@ import {
   installErrorHandlers,
 } from './util';
 
-const stagePackageJson = (stagingDir: string): void => {
-  const packageJson = JSON.parse(fs.readFileSync('./package.json', 'utf-8'));
-  packageJson.name = '@brave/wallet-lists';
-  packageJson.publishConfig = { access: 'public' };
-  packageJson.scripts = {};
-  packageJson.devDependencies = {};
-  packageJson.dependencies = {};
-  packageJson.engines = {};
-  delete packageJson.type;
-  fs.writeFileSync(path.join(stagingDir, 'package.json'), JSON.stringify(packageJson, null, 2));
-};
-
 const stageChainListJson = async (stagingDir: string): Promise<void> => {
   const dstPath = path.join(stagingDir, 'chainlist.json');
   const chainList = await generateChainList();
@@ -106,7 +94,6 @@ const stageTokenPackage = async (): Promise<void> => {
   await stageCoingeckoTokenList(stagingDir, 'coingecko-top5000.json');
   await stagePolkadotRpcUrls(stagingDir);
 
-  stagePackageJson(stagingDir);
   stageManifest(stagingDir);
   stageVersion(stagingDir);
 };
