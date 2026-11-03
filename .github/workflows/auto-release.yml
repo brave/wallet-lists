@@ -49,18 +49,18 @@ jobs:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
           API_AUTH_TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
 
-      # The wallet data component, consumed by brave-core-crx-packager. Same
-      # contents as the npm package minus package.json, which only npm needs.
+      # The wallet data component, consumed by brave-core-crx-packager.
       - name: Package release asset
         working-directory: build
-        run: zip -qr ../wallet-lists.zip . -x package.json
+        run: zip -qr ../wallet-lists.zip .
 
+      # Only build output crosses into the publish job. Anything else, such as
+      # package.json, would let build-time code change what the publish job runs.
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: release
           path: |
             build/
-            package.json
             wallet-lists.zip
           if-no-files-found: error
           retention-days: 1
@@ -81,11 +81,6 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
-        with:
-          node-version: '24.x'
-          registry-url: 'https://registry.npmjs.org'
-
       - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: release
@@ -95,21 +90,20 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+      # Re-applies the version bump to the trusted checkout's package.json.
       - name: Commit build assets
+        env:
+          VERSION: ${{ needs.build.outputs.version }}
         run: |
+          npm version "${VERSION}" --no-git-tag-version --ignore-scripts
           git add build/ package.json
-          git commit -m "ci: update build assets (${{ needs.build.outputs.version }})"
+          git commit -m "ci: update build assets (${VERSION})"
           git push
 
       - name: Attest release asset
         uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
         with:
           subject-path: wallet-lists.zip
-
-      - name: Publish NPM package
-        run: npm run publish-token-package
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Create release
         uses: softprops/action-gh-release@718ea10b132b3b2eba29c1007bb80653f286566b # v3.0.1

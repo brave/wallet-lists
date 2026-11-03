@@ -1,5 +1,6 @@
 {
   "name": "token-lists",
+  "private": true,
   "version": "1.38.28",
   "description": "Manages custom token lists for Brave Wallet",
   "type": "module",
@@ -24,7 +25,6 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint",
-    "publish-token-package": "npm publish ./build",
     "generate-coingecko-universe": "tsx scripts/coingecko-universe.ts"
   },
   "repository": {
