@@ -2545,6 +2545,26 @@
       "off_ramp_providers": []
     },
     {
+      "contract_address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "name": "Collector Crypt",
+      "logo": "",
+      "is_erc20": true,
+      "is_erc721": false,
+      "is_erc1155": false,
+      "is_nft": false,
+      "symbol": "CARD",
+      "decimals": 18,
+      "visible": true,
+      "token_id": "",
+      "coingecko_id": "",
+      "chain_id": "0x65",
+      "coin": 501,
+      "on_ramp_providers": [
+        "coinbase"
+      ],
+      "off_ramp_providers": []
+    },
+    {
       "contract_address": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
       "name": "Coinbase Wrapped Staked ETH",
       "logo": "",
