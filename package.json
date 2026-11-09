@@ -1,7 +1,7 @@
 {
   "name": "token-lists",
   "private": true,
-  "version": "1.38.33",
+  "version": "1.38.34",
   "description": "Manages custom token lists for Brave Wallet",
   "type": "module",
   "dependencies": {
