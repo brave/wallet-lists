@@ -8,7 +8,7 @@ overrides:
   ws: 8.22.1
   vite: 8.2.4
   esbuild: 0.28.2
-  minimatch: 11.0.3
+  minimatch: 11.0.4
 
 importers:
 
@@ -1369,9 +1369,9 @@ packages:
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
-  minimatch@11.0.3:
-    resolution: {integrity: sha512-iny/40PEGkNJQ5/Pv6z3nm6FbRAby32GeZRjCUJk2WnNDbgPSTcdI+DDvLqsgBdD4cD5sMtMheqPPnehCCa8Nw==}
-    engines: {node: 18 || 20 || >=22}
+  minimatch@11.0.4:
+    resolution: {integrity: sha512-/UJ1dEoVQTjPNDh6SGlUo+ueLMmoHTas4q+8yaAR/5t6nLAIiBDJtoYUh20IYleix7ehiQkgczb84PE3uzHkxg==}
+    engines: {node: 20 || >=22}
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
@@ -1740,7 +1740,7 @@ snapshots:
     dependencies:
       '@eslint/object-schema': 3.0.5
       debug: 4.4.3
-      minimatch: 11.0.3
+      minimatch: 11.0.4
     transitivePeerDependencies:
       - supports-color
 
@@ -2564,7 +2564,7 @@ snapshots:
       '@typescript-eslint/types': 8.72.1
       '@typescript-eslint/visitor-keys': 8.72.1
       debug: 4.4.3
-      minimatch: 11.0.3
+      minimatch: 11.0.4
       semver: 7.8.0
       tinyglobby: 0.2.17
       ts-api-utils: 2.5.0(typescript@6.0.3)
@@ -2757,7 +2757,7 @@ snapshots:
       imurmurhash: 0.1.4
       is-glob: 4.0.3
       json-stable-stringify-without-jsonify: 1.0.1
-      minimatch: 11.0.3
+      minimatch: 11.0.4
       natural-compare: 1.4.0
       optionator: 0.9.4
     optionalDependencies:
@@ -2930,7 +2930,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  minimatch@11.0.3:
+  minimatch@11.0.4:
     dependencies:
       '@isaacs/nonrecursive-glob-match': 1.0.3
       brace-expansion: 5.0.12
