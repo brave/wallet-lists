@@ -50,8 +50,7 @@
       "currency_code": "CLP",
       "currency_name": "Chilean Peso",
       "providers": [
-        "transak",
-        "sardine"
+        "transak"
       ]
     },
     {
@@ -160,7 +159,8 @@
       "currency_code": "PHP",
       "currency_name": "Philippine Peso",
       "providers": [
-        "transak"
+        "transak",
+        "sardine"
       ]
     },
     {
@@ -188,7 +188,8 @@
       "currency_code": "KRW",
       "currency_name": "South Korean Won",
       "providers": [
-        "transak"
+        "transak",
+        "sardine"
       ]
     },
     {
@@ -219,7 +220,8 @@
       "currency_code": "TRY",
       "currency_name": "Turkish Lira",
       "providers": [
-        "transak"
+        "transak",
+        "sardine"
       ]
     },
     {
@@ -248,6 +250,13 @@
       ]
     },
     {
+      "currency_code": "HRK",
+      "currency_name": "",
+      "providers": [
+        "sardine"
+      ]
+    },
+    {
       "currency_code": "ISK",
       "currency_name": "",
       "providers": [
@@ -269,7 +278,7 @@
       ]
     },
     {
-      "currency_code": "AED",
+      "currency_code": "VND",
       "currency_name": "",
       "providers": [
         "sardine"
@@ -318,28 +327,21 @@
       ]
     },
     {
-      "currency_code": "EGP",
-      "currency_name": "",
-      "providers": [
-        "sardine"
-      ]
-    },
-    {
-      "currency_code": "MRU",
-      "currency_name": "",
-      "providers": [
-        "sardine"
-      ]
-    },
-    {
-      "currency_code": "LKR",
-      "currency_name": "",
-      "providers": [
-        "sardine"
-      ]
-    },
-    {
       "currency_code": "OMR",
+      "currency_name": "",
+      "providers": [
+        "sardine"
+      ]
+    },
+    {
+      "currency_code": "JMD",
+      "currency_name": "",
+      "providers": [
+        "sardine"
+      ]
+    },
+    {
+      "currency_code": "BBD",
       "currency_name": "",
       "providers": [
         "sardine"
@@ -374,28 +376,14 @@
       ]
     },
     {
+      "currency_code": "ALL",
+      "currency_name": "",
+      "providers": [
+        "sardine"
+      ]
+    },
+    {
       "currency_code": "AOA",
-      "currency_name": "",
-      "providers": [
-        "sardine"
-      ]
-    },
-    {
-      "currency_code": "GNF",
-      "currency_name": "",
-      "providers": [
-        "sardine"
-      ]
-    },
-    {
-      "currency_code": "GYD",
-      "currency_name": "",
-      "providers": [
-        "sardine"
-      ]
-    },
-    {
-      "currency_code": "XAF",
       "currency_name": "",
       "providers": [
         "sardine"
@@ -416,35 +404,14 @@
       ]
     },
     {
-      "currency_code": "MVR",
+      "currency_code": "MZN",
       "currency_name": "",
       "providers": [
         "sardine"
       ]
     },
     {
-      "currency_code": "MNT",
-      "currency_name": "",
-      "providers": [
-        "sardine"
-      ]
-    },
-    {
-      "currency_code": "TTD",
-      "currency_name": "",
-      "providers": [
-        "sardine"
-      ]
-    },
-    {
-      "currency_code": "UZS",
-      "currency_name": "",
-      "providers": [
-        "sardine"
-      ]
-    },
-    {
-      "currency_code": "VUV",
+      "currency_code": "TZS",
       "currency_name": "",
       "providers": [
         "sardine"
