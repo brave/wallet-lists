@@ -2,6 +2,6 @@ allowBuilds:
   esbuild: true
 overrides:
   ws: '8.22.1'
-  vite: '8.2.4'
+  vite: '8.3.6'
   esbuild: '0.28.2'
   minimatch: '11.0.4'
