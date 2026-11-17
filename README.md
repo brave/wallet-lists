@@ -1,6 +1,7 @@
 # wallet-lists
 
 [![Build](https://github.com/brave/wallet-lists/actions/workflows/build.yml/badge.svg)](https://github.com/brave/wallet-lists/actions/workflows/build.yml)
+[![npm](https://img.shields.io/npm/v/@brave/wallet-lists)](https://www.npmjs.com/package/@brave/wallet-lists)
 
 Manages custom wallet lists for Brave Wallet
 
@@ -13,7 +14,7 @@ gh attestation verify wallet-lists.zip --repo brave/wallet-lists \
   --signer-workflow brave/wallet-lists/.github/workflows/auto-release.yml
 ```
 
-Nothing is published to npm. The `@brave/wallet-lists` npm package is no longer updated ([#369](https://github.com/brave/wallet-lists/issues/369)).
+That build output is also published to npm as [`@brave/wallet-lists`](https://www.npmjs.com/package/@brave/wallet-lists). The [Auto Release](.github/workflows/auto-release.yml) workflow authenticates with [npm trusted publishing](https://docs.npmjs.com/trusted-publishers/) (GitHub Actions OIDC) and publishes with provenance. No npm token is used. The package on npmjs.com needs a trusted publisher for this workflow: organization `brave`, repository `wallet-lists`, workflow filename `auto-release.yml`, environment left empty, and direct `npm publish` allowed.
 
 A **weekly** cron job on [Jenkins](https://github.com/brave/devops/blob/master/jenkins/jobs/extensions/brave-core-ext-wallet-data-files-update-publish.yml) runs [brave/brave-core-crx-packager](https://github.com/brave/brave-core-crx-packager), which downloads and verifies the latest release and packages it into the wallet data files component.
 
