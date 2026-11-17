@@ -29,13 +29,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/token-lists.git"
+    "url": "git+https://github.com/brave/wallet-lists.git"
   },
   "author": "",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/brave/token-lists/issues"
+    "url": "https://github.com/brave/wallet-lists/issues"
   },
-  "homepage": "https://github.com/brave/token-lists#readme",
+  "homepage": "https://github.com/brave/wallet-lists#readme",
   "packageManager": "pnpm@11.28.10"
 }
