@@ -54,8 +54,8 @@ jobs:
         working-directory: build
         run: zip -qr ../wallet-lists.zip .
 
-      # Only build output crosses into the later jobs. Anything else, such as
-      # package.json, would let build-time code change what those jobs publish.
+      # Only build output crosses into the publish job. Anything else, such as
+      # package.json, would let build-time code change what the publish job runs.
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: release
@@ -65,14 +65,11 @@ jobs:
           if-no-files-found: error
           retention-days: 1
 
-  # Commits, signs and publishes the GitHub release. Runs no project code.
+  # Commits, signs and publishes the build output. Runs no project code.
   publish:
     needs: build
     runs-on: ubuntu-latest
     environment: release
-
-    outputs:
-      sha: ${{ steps.commit.outputs.sha }}
 
     permissions:
       contents: write # push the build commit and create the release
@@ -95,7 +92,6 @@ jobs:
 
       # Re-applies the version bump to the trusted checkout's package.json.
       - name: Commit build assets
-        id: commit
         env:
           VERSION: ${{ needs.build.outputs.version }}
         run: |
@@ -103,7 +99,6 @@ jobs:
           git add build/ package.json
           git commit -m "ci: update build assets (${VERSION})"
           git push
-          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Attest release asset
         uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6 # v4.2.2
@@ -118,72 +113,3 @@ jobs:
           make_latest: true
           files: wallet-lists.zip
           fail_on_unmatched_files: true
-
-  # Publishes the build output to npm. Runs no project code. The trusted
-  # publisher on npmjs.com keys on this repository and this filename, not on a
-  # job name, and it has no environment.
-  npm:
-    needs: [build, publish]
-    if: github.repository == 'brave/wallet-lists'
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-      id-token: write # npm trusted publishing
-
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          ref: ${{ needs.publish.outputs.sha }}
-          persist-credentials: false
-
-      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
-        with:
-          name: release
-
-      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
-        with:
-          node-version: '24.x'
-          registry-url: 'https://registry.npmjs.org'
-          package-manager-cache: false
-
-      # Manifest is written here from the trusted checkout. The build artifact
-      # only supplies data files, so build-time code cannot change what is published.
-      - name: Publish to npm
-        run: |
-          set -eu
-          node --input-type=module <<'EOF'
-          import fs from 'node:fs';
-
-          const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
-          const packagedVersion = fs.readFileSync('build/VERSION', 'utf8').trim().replace(/^v/, '');
-          if (pkg.version !== packagedVersion) {
-            console.error(`package.json version (${pkg.version}) does not match build/VERSION (${packagedVersion})`);
-            process.exit(1);
-          }
-
-          pkg.name = '@brave/wallet-lists';
-          pkg.publishConfig = { access: 'public' };
-          pkg.scripts = {};
-          pkg.devDependencies = {};
-          pkg.dependencies = {};
-          pkg.engines = {};
-          delete pkg.private;
-          delete pkg.packageManager;
-          delete pkg.type;
-          fs.rmSync('build/.npmrc', { force: true });
-          fs.writeFileSync('build/package.json', `${JSON.stringify(pkg, null, 2)}\n`);
-          EOF
-          # Provenance is attached automatically for trusted publishing from a public
-          # repository. --provenance keeps that explicit. No NODE_AUTH_TOKEN: a token
-          # would hide OIDC and skip the trusted-publisher path. --ignore-scripts keeps
-          # a lifecycle script from running during the publish itself.
-          # A version already on the registry is left alone, so re-running this job
-          # after a publish that landed does not fail the run.
-          name="$(node -p 'require("./build/package.json").name')"
-          version="$(node -p 'require("./build/package.json").version')"
-          if npm view "${name}@${version}" version >/dev/null 2>&1; then
-            echo "${name}@${version} is already on the registry; not publishing it again"
-          else
-            npm publish ./build --access public --provenance --ignore-scripts
-          fi

@@ -5,3 +5,8 @@ overrides:
   vite: '8.2.4'
   esbuild: '0.28.2'
   minimatch: '11.0.4'
+auditConfig:
+  ignoreGhsas:
+    # picomatch ReDoS, withdrawn by GitHub as not a vulnerability. npm's audit
+    # feed still reports it. Drop this once pnpm audit stops flagging it.
+    - GHSA-fc5q-39xc-vjpf
