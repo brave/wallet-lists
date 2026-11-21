@@ -126,9 +126,6 @@ enum ChainId {
   CARDANO = 'cardano_mainnet',
 
   POLKADOT = 'polkadot_asset_hub',
-
-  // Disabled for now
-  // ZKSYNC = '0x144',
 }
 
 function validateEnvVars() {
@@ -141,9 +138,6 @@ function validateEnvVars() {
     'OPTIMISM_RPC_URL',
     'AVALANCHE_RPC_URL',
     'SOLANA_RPC_URL',
-
-    // Disabled for now
-    // 'ZKSYNC_RPC_URL',
   ];
 
   const missing = requiredVars.filter(v => !process.env[v]);
@@ -172,9 +166,6 @@ function loadRpcConfig(): Record<ChainId, string> {
 
     // Polkadot Asset Hub decimals are sourced from CoinGecko; no RPC needed.
     [ChainId.POLKADOT]: ""
-
-    // Disabled for now
-    // [ChainId.ZKSYNC]: process.env.ZKSYNC_RPC_URL!,
   } as const;
 }
 
