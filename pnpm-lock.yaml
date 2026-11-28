@@ -15,8 +15,8 @@ importers:
   .:
     dependencies:
       '@solana-program/token':
-        specifier: 0.14.0
-        version: 0.14.0(@solana/kit@6.10.0(typescript@6.0.3))
+        specifier: 0.18.0
+        version: 0.18.0(@solana/kit@6.10.0(typescript@6.0.3))
       '@solana-program/token-2022':
         specifier: 0.12.0
         version: 0.12.0(@solana/kit@6.10.0(typescript@6.0.3))(@solana/sysvars@5.5.1(typescript@6.0.3))
@@ -398,15 +398,15 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@solana-program/system@0.12.0':
-    resolution: {integrity: sha512-ZnAAWeGVMWNtJhw3GdifI2HnhZ0A0H0qs8tBkcFvxp/8wIavvO+GOM4Jd0N22u2+Lni2zcwvcrxrsxj6Mjphng==}
-    peerDependencies:
-      '@solana/kit': ^6.1.0
-
   '@solana-program/system@0.12.2':
     resolution: {integrity: sha512-MaBeOxlvTruQhA7UYkOb3hVTEHPPagOtd+PvTm6a8rGgvEAP0kD4BbC37NceOaR4ABNqdaCmD5OMVRKgrE6KAg==}
     peerDependencies:
       '@solana/kit': ^6.4.0
+
+  '@solana-program/system@0.16.0':
+    resolution: {integrity: sha512-/RG6q2E2vG/XpdOt8Jj/kbQktPlL5JyJuNGAeN9wDcxKDKQtrGTJpDrJgQUxiEy23fsPNXQbLN8XeCtYoMof3Q==}
+    peerDependencies:
+      '@solana/kit': ^8.5.0
 
   '@solana-program/token-2022@0.12.0':
     resolution: {integrity: sha512-SXkN6Epy9sC3OEELJLhc0hZtUijsAlR2Nb5gP6jcc0WVrtj5wEAmksWxF/yYrAB8AisJVgxvODkhIAnrd02DIw==}
@@ -419,11 +419,10 @@ packages:
       '@solana/zk-sdk':
         optional: true
 
-  '@solana-program/token@0.14.0':
-    resolution: {integrity: sha512-zpLMr6JZndlsQCQvrm0gezfwdr1lmzOGqN6v2WIYXjtDmbF+xg6zh/MAp2UFHRpv3uDmylEdjtQo05pa2OeaYg==}
-    engines: {node: '>=24.0.0'}
+  '@solana-program/token@0.18.0':
+    resolution: {integrity: sha512-YNN13I4BxBnGPGk0NzP/LLQMCmJVdunbtgqjl7/Gfp1fDXQrKXh9df8xu+2ayNdvjGJYC4c9D5vZpVetHdyJaQ==}
     peerDependencies:
-      '@solana/kit': ^6.5.0
+      '@solana/kit': ^8.5.0
 
   '@solana-program/zk-elgamal-proof@0.2.0':
     resolution: {integrity: sha512-znu1asnySKVp0VyOlfXCLZhpdWvyq/tJ7GRrX61Z6vyXXqJ/OMizv2BkgYL/VbzDKkFmUiYfiFwF3gDtZHv7VA==}
@@ -1848,11 +1847,11 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@solana-program/system@0.12.0(@solana/kit@6.10.0(typescript@6.0.3))':
+  '@solana-program/system@0.12.2(@solana/kit@6.10.0(typescript@6.0.3))':
     dependencies:
       '@solana/kit': 6.10.0(typescript@6.0.3)
 
-  '@solana-program/system@0.12.2(@solana/kit@6.10.0(typescript@6.0.3))':
+  '@solana-program/system@0.16.0(@solana/kit@6.10.0(typescript@6.0.3))':
     dependencies:
       '@solana/kit': 6.10.0(typescript@6.0.3)
 
@@ -1863,9 +1862,9 @@ snapshots:
       '@solana/kit': 6.10.0(typescript@6.0.3)
       '@solana/sysvars': 5.5.1(typescript@6.0.3)
 
-  '@solana-program/token@0.14.0(@solana/kit@6.10.0(typescript@6.0.3))':
+  '@solana-program/token@0.18.0(@solana/kit@6.10.0(typescript@6.0.3))':
     dependencies:
-      '@solana-program/system': 0.12.0(@solana/kit@6.10.0(typescript@6.0.3))
+      '@solana-program/system': 0.16.0(@solana/kit@6.10.0(typescript@6.0.3))
       '@solana/kit': 6.10.0(typescript@6.0.3)
 
   '@solana-program/zk-elgamal-proof@0.2.0(@solana/kit@6.10.0(typescript@6.0.3))':
